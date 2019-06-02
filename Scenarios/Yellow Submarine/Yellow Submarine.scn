@@ -1,4 +1,15 @@
 BEGIN_DESC
+The Yellow Submarine orbiting the Earth.
+
+
+Vinka's Spacecraft4 required
+
+http://francophone.dansteph.com/?page=addon&id=202
+
+
+This scenario includes the vessels
+
+
 YellowSubmarine:YellowSubmarine
 
 ISS:ProjectAlpha_ISS
@@ -53,8 +64,8 @@ YellowSubmarine:YellowSubmarine
   RVEL 4515.3252 -6180.4930 850.6645
   AROT 35.730 -15.689 -10.054
   AFCMODE 7
-  PRPLEVEL 0:0.992720
-  THLEVEL 15:0.000015 18:0.000015
+  PRPLEVEL 0:0.992736
+  THLEVEL 1:0.000015
   IDS 0:588 100 1:586 100
   NAVFREQ 562 560
   XPDR 420
