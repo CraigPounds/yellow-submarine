@@ -1,13 +1,13 @@
 BEGIN_DESC
-YellowSubmarine orbiting Earth.
+YellowSubmarine landed at Habana spaceport, Earth.
 
 
-Vinka's Spacecraft4 is required.
+Vinka's Spacecraft4 required.
 
 http://francophone.dansteph.com/?page=addon&id=202
 
 
-This scenario includes the vessels
+Scenario includes the vessels
 
 
 YellowSubmarine:YellowSubmarine
@@ -23,7 +23,7 @@ END_DESC
 
 BEGIN_ENVIRONMENT
   System Sol
-  Date MJD 40234.1046578067
+  Date MJD 40234.6066278625
 END_ENVIRONMENT
 
 BEGIN_FOCUS
@@ -33,44 +33,12 @@ END_FOCUS
 BEGIN_CAMERA
   TARGET YellowSubmarine
   MODE Extern
-  POS 4.000000 -35.093665 -8.451127
+  POS 6.863797 -98.262262 -9.024084
   TRACKMODE TargetRelative
   FOV 40.00
 END_CAMERA
 
-BEGIN_HUD
-  TYPE Docking
-  NAV 0
-END_HUD
-
-BEGIN_MFD Left
-  TYPE Orbit
-  PROJ Frame
-  FRAME Ecliptic
-  REF Earth
-END_MFD
-
-BEGIN_MFD Right
-  TYPE Map
-  REF Earth
-  POS 3.12 0.37
-  DISP 46255
-END_MFD
-
 BEGIN_SHIPS
-YellowSubmarine:YellowSubmarine
-  STATUS Orbiting Earth
-  RPOS 4979767.608 3998925.633 -2121077.861
-  RVEL 4973.8009 -5843.3059 662.5070
-  AROT 69.190 78.318 34.757
-  AFCMODE 7
-  PRPLEVEL 0:0.992685
-  IDS 0:588 100 1:586 100
-  NAVFREQ 466 560
-  XPDR 420
-  CONFIGURATION 1
-  CURRENT_PAYLOAD 0
-END
 ISS:ProjectAlpha_ISS
   STATUS Orbiting Earth
   RPOS 4979602.695 3998959.748 -2121019.484
@@ -119,5 +87,16 @@ Mir:Mir
   AFCMODE 7
   IDS 0:540 100 1:542 100 2:544 100
   XPDR 482
+END
+YellowSubmarine:YellowSubmarine
+  STATUS Landed Earth
+  POS -82.4000000 22.9994600
+  HEADING 119.00
+  AFCMODE 7
+  PRPLEVEL 0:0.992685
+  NAVFREQ 466 560
+  XPDR 420
+  CONFIGURATION 1
+  CURRENT_PAYLOAD 0
 END
 END_SHIPS
