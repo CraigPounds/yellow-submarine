@@ -32,9 +32,7 @@ END_FOCUS
 
 BEGIN_CAMERA
   TARGET YellowSubmarine
-  MODE Extern
-  POS 4.000000 -35.093665 -8.451127
-  TRACKMODE TargetRelative
+  MODE Cockpit
   FOV 40.00
 END_CAMERA
 
@@ -42,20 +40,6 @@ BEGIN_HUD
   TYPE Docking
   NAV 0
 END_HUD
-
-BEGIN_MFD Left
-  TYPE Orbit
-  PROJ Frame
-  FRAME Ecliptic
-  REF Earth
-END_MFD
-
-BEGIN_MFD Right
-  TYPE Map
-  REF Earth
-  POS 3.12 0.37
-  DISP 46255
-END_MFD
 
 BEGIN_SHIPS
 YellowSubmarine:YellowSubmarine

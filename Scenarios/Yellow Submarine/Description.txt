@@ -7,7 +7,9 @@ END_HYPERDESC
 BEGIN_DESC
 Yellow Submarine
 
+
 Vinka's Spacecraft4 is required.
+
 
 http://francophone.dansteph.com/?page=addon&id=202
 END_DESC
